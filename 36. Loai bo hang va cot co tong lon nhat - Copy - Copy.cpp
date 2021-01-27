@@ -1,4 +1,4 @@
-//#include <???.h> //Author by Quan dep trai
+//#include <???.h> //Author by Nguyen Le
 #include<stdio.h>
 #include<conio.h>
 void in(int x[][10],int n,int m=0){
