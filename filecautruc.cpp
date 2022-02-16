@@ -1,4 +1,4 @@
-//#include <???.h> //Author by Quan dep trai
+//#include <???.h> //Author by Nguyen 
 #include <string.h>
 #define flush while((getchar()) != '\n')
 
