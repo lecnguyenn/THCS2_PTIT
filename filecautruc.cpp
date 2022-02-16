@@ -10,7 +10,7 @@ struct product{
 }; product ss[100];
 
 int count(){
-	FILE *outfile = fopen("B17DCPT163.bin","rb") ;
+	FILE *outfile = fopeB17DCCN265265.bin","rb") ;
     int c = 0,  temp = fgetc(outfile) ;
     while (temp = fgetc(outfile)!= EOF){
         c ++ ;
@@ -37,7 +37,7 @@ void addnew(int n){
 }
 
 void edit(int n){
-	FILE *outfile = fopen("B17DCPT163.bin","rb+");
+	FILE *outfile = fopen("B17D163.bin","rb+");
 	fseek(outfile,sizeof(product)*(n-1),SEEK_SET);
 	product s;
 	s.nums = n;
